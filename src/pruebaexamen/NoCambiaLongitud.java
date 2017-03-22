@@ -2,21 +2,21 @@
 package pruebaexamen;
 
 /**
- *
- * @author alumno
+ * @author Edgar
+ * @version 1
  */
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 public class NoCambiaLongitud extends Vector{
 
     /**
-     * @return the valor
+     * @return devolvemos la variable valor del vector
      */
     public int getValor() {
         return valor;
     }
 
     /**
-     * @param valor the valor to set
+     * @param valor fijamos un valor a la variable valor del vector
      */
     public void setValor(int valor) {
         this.valor = valor;
@@ -24,6 +24,9 @@ public class NoCambiaLongitud extends Vector{
     
     //metodo que modifica el contenido de la posicion p de un array con el valor pasado
    public void modificar(int[] vector, int longitudActual, int posicion){
+     /**
+     * @param i iniciamos una variable que utilizaremos como contador
+     */
      	int i=0;  
         int longitud = Visualizar(vector, i);
          //Modificamos el array
@@ -40,4 +43,3 @@ public class NoCambiaLongitud extends Vector{
          System.out.println("}");  
     }
 }
-//+++++++++++++++++++++++++++++++++++

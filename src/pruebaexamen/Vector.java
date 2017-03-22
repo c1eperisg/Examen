@@ -1,13 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pruebaexamen;
 
 /**
- *
- * @author alumno
+ * @author Edgar
+ * @version 1
  */
 public class Vector {
     
@@ -16,6 +11,9 @@ public class Vector {
     public int Visualizar(int[] vector, int i) {
         //Mostramos los elementos del array
         System.out.print("vector={");
+     /**
+     * @param longitud creamos la variable longitud para evitar asi escribir la funcion
+     */
         final int longitud = vector.length;
         for (i = 0; i < longitud - 1; i++) {
             System.out.print(vector[i] + ",");

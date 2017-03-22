@@ -2,31 +2,33 @@
 package pruebaexamen;
 
 /**
- *
- * @author alumno
+ * @author Edgar
+ * @version 1
  */
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 public class CambiaLongitud extends Vector {
 
     /**
-     * @return the valor
+     * @return el valor del vector
      */
     public int getValor() {
         return valor;
     }
 
     /**
-     * @param valor the valor to set
+     * @param valor set del valor del vector
      */
     public void setValor(int valor) {
         this.valor = valor;
     }
 
 
-//metodo que borra el elemento de la posicion p desplazando a la izquierda todos los elementos
+//metodo que borra el elemento de la posicion posicion desplazando a la izquierda todos los elementos
     public void borrar (int[] vector, int longtiudActual, int posicion){
+     /**
+     * @param i iniciamos una variable que utilizaremos como contador
+     */
         int i = 0;	  
-        //mostramos su contenido
         //Mostramos los elementos del array
         int longitud = Visualizar(vector, i);
          //Borramos el elemento
@@ -47,6 +49,9 @@ public class CambiaLongitud extends Vector {
 
 //metodo que inserta un  elemento en la posicion p desplazando a la derecha todos los elementos
 public void insertar (int[] vector, int longitudActual, int posicion){
+    /**
+     * @param i iniciamos una variable que utilizaremos como contador
+     */
     int i;	  
         int longitud = Visualizar(vector, i=0);
          //Borramos el elemento
@@ -68,4 +73,3 @@ public void insertar (int[] vector, int longitudActual, int posicion){
 
 
 }
-//+++++++++++++++++++++++++++++++++++

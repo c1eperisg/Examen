@@ -6,8 +6,8 @@
 package pruebaexamen;
 
 /**
- *
- * @author alumno
+ * @author Edgar
+ * @version 1
  */
 public class Test {
     
